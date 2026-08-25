@@ -1,0 +1,21 @@
+{
+  "name": "bot-ofertas-ml-telegram",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "bot": "tsx src/run.ts",
+    "setup:ml-oauth": "tsx scripts/setup-ml-oauth.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^4.1.11"
+  }
+}
